@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <h4>About Page</h4>
             <p>this is everything you need to know about me....
-                no need to hesitate to <Link>contact</Link> me!
+                no need to hesitate to <Link to='/contact'>contact</Link> me!
             </p>
         </div>
     );
