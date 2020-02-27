@@ -1,10 +1,15 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <div>
-      <h3>hello world</h3>
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
