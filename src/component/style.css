@@ -18,3 +18,10 @@
 .liststyle {
     margin-left: 0.5cm;
 }
+
+.homelist {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    flex-direction: column;
+}
