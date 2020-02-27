@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Nav from './component/Nav'
 import Home from './component/Home'
+import About from './component/About'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route path='/' component={Home}/>
+          <Route path='/' exact component={Home} />
+          <Route path='/about' component={About} />
         </Switch>
       </div>
     </Router>

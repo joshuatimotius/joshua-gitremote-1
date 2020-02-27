@@ -1,8 +1,9 @@
 import React from 'react'
 
-function Home () {
+const Home = () => {
     return(
         <div>
+            <h1>This is the Home Page</h1>
             <h4>Games</h4>
             <ul className="homelist">
                 <li>Apex Legends : 10</li>
