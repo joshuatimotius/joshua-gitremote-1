@@ -31,7 +31,7 @@
     padding: 10px;
     font-size: 20px;
     justify-content: center;
-    background-color: darkseagreen
+    background-color: darkseagreen;
 }
 
 .greetings {
@@ -41,4 +41,8 @@
 .linkword{
     font-family: fantasy;
     font-size: 13px;
+}
+
+.home {
+    text-align: center;
 }
