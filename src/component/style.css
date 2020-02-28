@@ -46,3 +46,8 @@
 .home {
     text-align: center;
 }
+
+.coba {
+    display: flex;
+    justify-content: space-between;
+}
