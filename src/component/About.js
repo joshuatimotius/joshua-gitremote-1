@@ -8,6 +8,7 @@ const About = () => {
             <p className='greetings'>this is everything you need to know about me....
                 no need to hesitate to <Link className='linkword' to='/contact'>contact</Link> me!
             </p>
+            <h1>Hello World!</h1>
         </div>
     );
 }
